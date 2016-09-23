@@ -43,7 +43,7 @@ p{color: #999}
         }
 
 /* Start Spinner Style */
-    
+
 .cssload-dots {
                 width: 0;
                 height: 0;
@@ -177,7 +177,7 @@ p{color: #999}
                                     -moz-animation: cssload-dot-move 4.6s 3.45s ease infinite;
                                  }
 
-                    @keyframes cssload-dot-move {   
+                    @keyframes cssload-dot-move {
                         0% {
                             transform: translateY(0);
                         }
@@ -507,7 +507,7 @@ p{color: #999}
                         }
                     }
 
-                
+
                 /* End Spinner Style */
 
 /* End Loading style */
@@ -528,19 +528,19 @@ p{color: #999}
                             position: absolute;
                             z-index: 99999;
                             right: 140px;
-                            font-size: 35px;
+                            font-size: 20px;
                             color: #35AC9C;
-                            -webkit-animation:scalling 1.5s ease-in-out infinite;
-                            animation:scalling 1.5s ease-in-out infinite;
-                            -o-animation:scalling 1.5s ease-in-out infinite;
-                            -moz-animation:scalling 1.5s ease-in-out infinite
+
                             }
 
-.description{padding-bottom: 200px;
-            display: none;
-            background-image: url(../images/contact-bg.png);
-            border-top: 2px solid #35AC9C;
-            color: #35AC9C
+.description{    padding-bottom: 200px;
+    display: none;
+    background-image: url(../images/slider-img/3.jpeg);
+    background-attachment: fixed;
+    border-top: 2px solid #35AC9C;
+    color: #35AC9C;
+    background-repeat: no-repeat;
+    background-size: cover
             }
 
 .description .navbar-brand p{    color: #2CB19F;
@@ -555,7 +555,7 @@ p{color: #999}
 .description .desc-content{ width: 75%;
                             margin: 0 auto;
                             margin-top: 60px;
-                            background-color: rgba(0,0,0,.2);
+                            background-color: rgba(0,0,0,.6);
                             line-height: 2;
                             padding: 60px;
                             border-radius: 5px
@@ -563,7 +563,7 @@ p{color: #999}
 
 .description .desc-content p{color: white; font-size: 16px}
 
-.btn-desc{    
+.btn-desc{
               margin-top: 40px
          }
 
@@ -603,11 +603,7 @@ p{color: #999}
          right: 140px;
          font-size: 35px;
          color: #35AC9C;
-         -webkit-animation:scalling 1.5s ease-in-out infinite;
-         animation:scalling 1.5s ease-in-out infinite;
-         -o-animation:scalling 1.5s ease-in-out infinite;
-         -moz-animation:scalling 1.5s ease-in-out infinite
-        }
+      }
 
 .fix-nav{display: none}
 
@@ -720,14 +716,14 @@ bold ; color: white}
     font-size: 15px;
     font-weight: bold;
     transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out
-    
+
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus , .navbar-default .navbar-nav > li > a:hover
 {
         color: white;
         border-radius: 4px;
         background-color: #343131;
-        
+
         height: 40px;
         margin-top: -5px
 }
@@ -811,11 +807,11 @@ h4{
             color: #999;
             margin-left: 20%;
             font-size: 16px;
-            
+
           }
 
 
-.skills i{    font-size: 3.2em; 
+.skills i{    font-size: 3.2em;
               color: #35AC9C;
               margin: 20px;transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out}
 
@@ -849,7 +845,7 @@ h4{
             border: 0;
             padding: 5px 40px 5px 40px;
             border-radius: 5px;
-            margin-top: 10px; 
+            margin-top: 10px;
             transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;-ms-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out
          }
 .btn-read:hover{color: rgb(53, 172, 156); background-color: white}
@@ -895,7 +891,7 @@ line-height: 1.6}
 .contact{background-image: url(../images/macbook-577758_1920.jpg);background-attachment: fixed; background-repeat: no-repeat; min-width: 100%; background-size: cover;    padding: 20px 0 60px 0;voice-volume
 }
 
-.contact-content{background-color: rgba(0,0,0,.65555);padding: 20px 0 74px 0; clear: 
+.contact-content{background-color: rgba(0,0,0,.65555);padding: 20px 0 74px 0; clear:
 }
 
 .contact h3{
@@ -949,7 +945,7 @@ border-radius: 13px}
            }
 .gallary ul{margin-top: 10px;margin-bottom: 100px}
 .gallary ul li{float: left;  color: #555;margin-bottom: 10px; cursor: pointer;
-    background-color: white; 
+    background-color: white;
     box-shadow: 0px 1px 12px -1px;
     height: 34px;
     line-height: 34px;
@@ -971,20 +967,20 @@ border-radius: 13px}
             border: 0;
             padding: 5px 40px 5px 40px;
             border-radius: 5px;
-            margin-top: 10px; 
+            margin-top: 10px;
             transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;-ms-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out
          }
 .btn-show:hover{border:1px solid rgb(53, 172, 156); color: rgb(53, 172, 156) ; background-color: white}
 .port p{display: none;margin-top: 15px;
 color: rgb(239, 239, 239);
 line-height: 1.6}
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 /* end gallary style */
 
 
@@ -1019,7 +1015,7 @@ footer hr{border-top: 1px solid #999}
 
 
 
-footer .fa-phone{  
+footer .fa-phone{
               color: #35AC9C;
               margin: 20px;transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out}
 
@@ -1044,7 +1040,7 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
     50%{opacity: .0}
     100%{
         transform: scale(.9);-webkit-transform: scale(.9);-moz-transform: scale(.9);-o-transform: scale(.9)
-       }   
+       }
 }
 
 @-o-keyframes scalling{
@@ -1054,7 +1050,7 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
     50%{opacity: .0}
     100%{
         transform: scale(.9);-webkit-transform: scale(.9);-moz-transform: scale(.9);-o-transform: scale(.9)
-       }   
+       }
 }
 
 @-moz-keyframes scalling{
@@ -1065,7 +1061,7 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
     100%{
         transform: scale(.9);-webkit-transform: scale(.9);-moz-transform: scale(.9);-o-transform: scale(.9)
        }
-   
+
 }
 
 @keyframes scalling{
@@ -1075,7 +1071,7 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
     50%{opacity: .0}
     100%{
         transform: scale(.9);-webkit-transform: scale(.9);-moz-transform: scale(.9);-o-transform: scale(.9)
-       }   
+       }
 }
 /* End animations */
 
@@ -1093,7 +1089,7 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
 
 @media (max-width: 991px) and (min-width: 768px)
 {
-    .navbar-nav{   
+    .navbar-nav{
                 margin: 8px -14px;
                }
 }
@@ -1106,27 +1102,30 @@ footer .fa-phone:hover{transform: scale(1.7);-webkit-transform: scale(1.7);-moz-
                 right: -30px
                 }
     .contact input{width: 80%}
-    
+
     .contact input{width: 50%}
     .speacial-span{font-size: 20px}
-    
-    
-    
+
+
+
 }
 
 
 @media (max-width: 400px)
 {
     .contact input{width: 80%}
-    
-    
+
+
+}
+
+
+@media (max-width: 900px)
+{
+    .gallary , .first-section , .skills , .port-content , .about-content {width: 100%}
+
+
 }
 
 
 
-
-
-
 /* ================================================================================== */
-
-
